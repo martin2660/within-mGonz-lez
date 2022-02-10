@@ -1,0 +1,133 @@
+@media (max-width: 500px) {
+	body {
+    display: grid;
+    grid-template-rows: 113px 150px 390px 100px;
+    margin: 0;
+  }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(249, 218, 16);
+    margin: 0;
+  }
+
+  section{
+    background-color: rgb(249, 218, 16);
+  }
+
+  #imgPrincipal{
+    width: 100%;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .margenIzquierda{
+    margin-left: 10px;
+  }
+
+  .margenArriba{
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 1024px){
+  body {
+    display: grid;
+    grid-template-areas: "menu encabezado"
+													"main main"
+													"pie pie";
+		margin: 0;
+}
+
+	header{
+		grid-area: encabezado;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		background-color: rgb(249, 218, 16);
+		padding: 0;
+		margin: 0;
+	}
+
+	section{
+		grid-area: menu;
+		background-color: rgb(249, 218, 16);
+		padding: 0;
+		margin: 0;
+	}
+
+	main{
+		grid-area: main;
+		background-color: rgb(188, 246, 25);
+	}
+
+	footer{
+		grid-area: pie;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.margenIzquierda{
+    margin-left: 10px;
+  }
+
+  .margenArriba{
+    margin-top: 10px;
+  }
+
+	.section1{
+		background-color: rgb(249, 218, 16);
+		margin: 0;
+	}
+}
+
+@media (min-width: 501px) and (max-width: 1023px){
+	body {
+    display: grid;
+    grid-template-areas: "menu encabezado"
+													"main main"
+													"pie pie";
+	  margin: 0;
+}
+
+	header{
+		grid-area: encabezado;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		background-color: rgb(249, 218, 16);
+	}
+
+	section{
+		grid-area: menu;
+		background-color: rgb(249, 218, 16);
+	}
+
+	main{
+		grid-area: main;
+		background-color: rgb(188, 246, 25);
+	}
+
+	footer{
+		grid-area: pie;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.margenIzquierda{
+    margin-left: 10px;
+  }
+
+  .margenArriba{
+    margin-top: 10px;
+  }
+}

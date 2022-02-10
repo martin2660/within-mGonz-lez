@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+}
+.color1{
+  background-color: rgb(249, 218, 16);
+}
+
+.color2{
+  Background-image: radial-gradient(rgb(188, 246, 25) 60%,rgb(54, 213, 56) 75%);
+}
+
+.ancho{
+  width: 80%;
+}
+
+.ancho2{
+  width: 82%;
+}
+
+.margenizquierda{
+  margin-left: 19px;
+}
+
+.margenIzquierda2{
+  margin-left: 60px;
+}
+
+.margenIzquierda3{
+  margin-left: 30px;
+}
+
+.margenderecha{
+  margin-right: 19px;
+}
+
+.margenderecha2{
+  margin-right: 0px;
+}
+
+.margenDerecha3{
+  margin-right: 37px;
+}
+
+.margenMenu{
+  margin: 10px;
+}
+
+.enColumnas{
+  display: block;
+}
+
+.margenArriba{
+  margin-top: 15px;
+}
+
+.margenArriba2{
+  margin-top: 65px;
+}
+
+.margenArribaHeader{
+  margin-top: 25px;
+}
+
+.margenParrafoArriba {
+  margin-top: 70px;
+}
+
+.margenParrafoArriba2 {
+  margin-top: 39px;
+}
+
+.margenAbajo{
+  margin-bottom: 15px;
+}
+
+.margenAbajo2{
+  margin-bottom: 38px;
+}
+
+.enFila{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.enFila2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerFlex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.estiloLetra{
+  font-style: italic;
+  font-size: 19px;
+}
+
+.margenTranslate{
+  margin-right: 1080px;
+  margin-top: 15px;
+}
+
+.margenMenu{
+  margin-right: 20%;
+}
+
+.margenMenu2{
+  margin-right: 5%;
+}
+
+.margenSlogan{
+  margin-right: 30%;
+  margin-top: 70px;
+}
+
+.margenLogo{
+  margin-right: 6%;
+}
+
+.centrarIndex{
+  display: flex;
+  justify-content: center;
+}
+
+.comolucharFlex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.centrarTexto{
+  justify-content: center;
+}
+
+.section1{
+  background-color: rgb(249, 218, 16);
+}
+
+.trans {
+	Transition: all 1.5s;
+}
+
+.trans:hover {
+	width: 400px;
+	height: 266px;
+}
